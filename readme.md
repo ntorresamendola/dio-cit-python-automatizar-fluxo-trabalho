@@ -65,7 +65,7 @@ root_agent = Agent(
 
 ## ⚙️Pré-requisitos de Ambiente
 
-- Conta ativa no Trello. Tutorial de como criar e configurar a conta [aqui](\agenttaskmanager\readme.md).
+- Conta ativa no Trello. Tutorial de como criar e configurar a conta [aqui](agenttaskmanager/readme.md).
 
 - Python 3.7 ou superior instalado.
 
@@ -75,7 +75,7 @@ root_agent = Agent(
 
 - É esperado que o quadro do Trello tenha este formato, ajuste o código de acordo se não for o caso:
 
-  ![Board esperada no Trello](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\09-boardtrello.png)
+  ![Board esperada no Trello](images/09-boardtrello.png)
 
 ## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
 
@@ -128,7 +128,7 @@ adk web
 
 * Primeiro modifiquei o agent.py para configuração inicial do agente:
 
-![Agente configurado](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\01-agente.png)
+![Agente configurado](images/01-agente.png)
 
 * Após as chaves do arquivo .env serem criadas e carregadas no arquivo, foi criada a função *get_temporal_context* para dar o contexto de tempo para o agente e foi criada a função *adicionar_tarefa*, que recebe o nome da tarefa, sua descrição e sua data de término. Ambas as funções foram adicionadas ao parâmetro tools do agente root, que é uma lista. 
 * Foi necessário criar a função auxiliar *ajustar_data* para ajustar datas enviadas, devido ao modo como a API do Trello funciona. 
@@ -145,39 +145,39 @@ adk web
 
 * Teste 1: Perguntar quais minhas tarefas quando o quadro está sem cards. ✅
 
-  ![Teste 1](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\02-teste1.png)
+  ![Teste 1](images/02-teste1.png)
 
 * Teste 2: adicionar algumas tarefas (quadro inicialmente vazio). ✅
 
-![Teste 2](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\03-teste2.png)
+![Teste 2](images/03-teste2.png)
 
-![image-20260605190337251](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\03-teste22.png)
+![image-20260605190337251](images/03-teste22.png)
 
 * Teste 3: listar tarefas. ✅
 
-![image-20260605190942416](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\04-teste3.png)
+![image-20260605190942416](images/04-teste3.png)
 
 * Teste 4: mover alguns cards. ✅
 
-![Teste 4](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\05-teste41.png)
+![Teste 4](images/05-teste41.png)
 
-![Teste 4](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\05-teste42.png)
+![Teste 4](images/05-teste42.png)
 
 * Teste 5: arquivar tarefas e exibir tarefas arquivadas. ✅
 
-  ![](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\06-teste6.png)
+![Teste 5](images/06-teste6.png)
 
 * Teste 6: remover tarefas e desarquivar tarefa. ✅
 
-![Teste 6](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\07-teste61.png)
+![Teste 6](images/07-teste61.png)
 
-![Teste 6](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\07-teste62.png)
+![Teste 6](images/07-teste62.png)
 
 * Teste 7: arquivar todas as tarefas e remover todas as tarefas arquivadas. ✅
 
-![Teste 8](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\08-teste71.png)
+![Teste 7](images/08-teste71.png)
 
-![Teste 7](C:\Users\natan\Desktop\dio\cit\agente-automacao-python\images\08-teste72.png)
+![Teste 7](images/08-teste72.png)
 
 ## 🎯 Objetivos e Resultados
 
